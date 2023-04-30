@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* styling for header */
+.header {
+	background-color: none;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	padding: 1em;
+    max-height: 150px;
+    margin-bottom: auto;
+}
+
+/* Styling for h1 tag */
+.headerTxt{
+	margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-shadow: black;
+    color: gray;
+}
+
+/* styling for profile pic container */
+.profile-pic {
+    width: 200px; 
+    margin: 0 auto;
+    justify-self: end; 
+   }
+
+/* for image to fill border and create a circular border  */
+  .profile-pic img {
+    width: 100%; 
+    border-radius: 50%;
+    height: 150px; 
+  }
+  
+/* background image setting */
+body{
+    background-image: url(pexels-andreea-ch-1166644.jpg);
+    background-size: contain;
+    background-position: top;
+}
+
+/* set the navigation bar */
+nav{
+   justify-content: space-between;
+}
+
+/* styling for header navigation bar child elements */
+nav ul {
+    list-style-type: none;
+	display: flex;
+	/* margin: 0; */
+    /* justify-content: space-between; */
+    padding-left: 28px;
+}
+
+/* nav bar elements, "home", "about me" */
+nav li {
+	margin:0 1em;
+    padding-left: 20px;
+}
+
+/* nav bar text styling */
+nav a {
+	color: black;
+    font-weight: bold;
+	text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+/* styling for consultation button */
+.consultBtn{
+    color:rgb(229, 181, 25);
+    font-weight: bold;
+    
+}
+
+/* styling for main section of website */
+.main {
+	max-width: 1000px;
+	margin: 0 50px;
+	padding: 20px;
+    padding-left: 300px;
+}
+
+/* styling for about me section header */
+.about-me{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* styling for about me section body */
+#aboutMeText{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
+}
+
+/* styling for skill section header */
+.skillsTxt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* styling for skill section body */
+#skillsList{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* styling for book a consultation section header */
+.consultTxt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#about #skills #consult{
+	margin: 20px 0;
+}
+
+/* styling for book a consultation form */
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: auto;
+}
+
+/* styling for form labels */
+form label {
+	margin-bottom: 0.5em;
+}
+
+/* styling for form input */
+input{
+    padding: 4px 4px;
+}
+
+/* styling for form message box */
+textarea {
+	padding: 0.5em;
+}
+
+/* styling for form submit button */
+.btn {
+    background-color: wheat;
+    border-radius: 20px;
+    border-color: wheat;
+    color: black;
+    padding: 15px 30px;  
+    font-size:14px;
+    width: fit-content;
+    
+}
+
+/* pseudo sytling for form submit button */
+.btn:hover{
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* styling for contact details container */
+.footer{
+    display: flex;
+    background-color: wheat;
+    margin: 0;
+    padding: 15px;
+    /* padding-right: 200px;
+    padding-left: 200px; */
+    justify-content: space-evenly;
+
+}
+
+/* styling for contact details icon elements */
+#footer{
+    list-style-type: none;
+    display: flex;
+    padding: 0; 
+    margin: 0;
+    color: gray;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+    /* padding-right: 50px; */
+    }
+
+/* styling for icon elements */
+#footer li{
+    padding: 0 15px; 
+    margin: 0; 
+}
+

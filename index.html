@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba513bafb1.js" crossorigin="anonymous"></script>
+    <title>My Portfolio Website</title>
+</head>
+
+    <body>
+<!-- header section -->
+        <div class="header">
+            <h1 class="headerTxt">Ozavize's Portfolio</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#main">Home</a></li>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                            <li><a href="#consult" class="consultBtn"> Consultation</a></li> 
+                        </ul>
+                    </nav>
+            <div class="profile-pic">
+                <img src="Ozavize Alabi.jpg">
+            </div>
+        </div>
+
+        
+<!-- Main body section -->
+        <div class="main" id="main">
+            <div id="about">
+                <h2 class="about-me">About Me</h2>
+                <p id="aboutMeText">My name is Ozavize Alabi, and i am presently learning web development, Data Analysis under the TIIDE Lab Prefellowship
+                 program, Developing skils in HTML, CSS and Excel.</p>
+            </div>
+
+            <br>
+
+            <div id="skills">
+                <h2 class="skillsTxt">Skills</h2>
+                <ul id="skillsList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Data Analysis</li>
+                </ul>
+            </div>
+            
+            <br>
+            <div id="consult">
+                <h2 class="consultTxt">Book a Consultation</h2>
+            <!-- form -->
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder=" Input Your Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder=" Input Your Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+            <br>
+            <br>
+        </div>
+
+<!-- footer section -->
+        <nav class="footer">
+            <ul id="footer">
+                <li class="phoneNo"><i class="fa-solid fa-phone"> 08168145075</i></li>
+                <li class="myEmail"><i class="fa-solid fa-envelope "> ozavizelabi@gmail.com</i></li>
+                <li class="Twitter"><i class="fa-brands fa-twitter"> Twitter</i></li>
+                <li class="Github"><i class="fa-brands fa-github"> Github</i></li>
+            </ul>
+        </nav>
+
+    </body>
+</html>
