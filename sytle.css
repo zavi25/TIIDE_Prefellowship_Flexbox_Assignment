@@ -1,149 +1,212 @@
-body{
-    margin: 0;
-    padding: 0;
 
-}
+    body {
+        margin: 0;
+        padding: 0;
+    
+    }
 
 /* styling for header */
 .header {
-	background-color: none;
-	color: whitesmoke;
-	display: flex;
-	align-items: center;
-	padding: 1em;
-    max-height: 150px;
+    background-color: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    height: 50px;
     margin-bottom: auto;
+    position: fixed;
+    background-color: wheat;
+    width: 100%;
+    z-index: 1;
 }
 
 /* Styling for h1 tag */
-.headerTxt{
-	margin: 0;
+.headerTxt {
+    margin: 0;
     font-family: 'Lato', sans-serif;
     text-shadow: black;
     color: gray;
+    
 }
+
 
 /* styling for profile pic container */
 .profile-pic {
-    width: 200px; 
+    width: 200px;
     margin: 0 auto;
-    justify-self: end; 
-   }
+    justify-self: end;
+    
+}
 
 /* for image to fill border and create a circular border  */
-  .profile-pic img {
-    width: 100%; 
+.profile-pic img {
+    width: 100%;
+    margin-top: 90px;
     border-radius: 50%;
-    height: 150px; 
-  }
-  
+    height: 150px;
+    border: 2px solid rgb(229, 181, 25);
+}
+
+
+
 /* background image setting */
 body{
     background-image: url(pexels-andreea-ch-1166644.jpg);
-    background-size: contain;
-    background-position: top;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-color: gray; */
 }
 
 /* set the navigation bar */
-nav{
-   justify-content: space-between;
+nav {
+    justify-content: space-between;
 }
 
 /* styling for header navigation bar child elements */
 nav ul {
     list-style-type: none;
-	display: flex;
-	/* margin: 0; */
+    display: flex;
+    /* margin: 0; */
     /* justify-content: space-between; */
     padding-left: 28px;
 }
 
 /* nav bar elements, "home", "about me" */
 nav li {
-	margin:0 1em;
+    margin: 0 1em;
     padding-left: 20px;
 }
 
 /* nav bar text styling */
 nav a {
-	color: black;
+    color: black;
     font-weight: bold;
-	text-decoration: none;
+    text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-size: large;
 }
 
 /* styling for consultation button */
-.consultBtn{
-    color:rgb(229, 181, 25);
+.consultBtn {
+    color: rgb(229, 181, 25);
     font-weight: bold;
-    
+
+}
+
+.body-section {
+    position: relative;
+    top: 100px;
+    /* z-index: -1; */
+    margin-bottom: 100px;
 }
 
 /* styling for main section of website */
 .main {
-	max-width: 1000px;
-	margin: 0 50px;
-	padding: 20px;
-    padding-left: 300px;
+    max-width: 1000px;
+    margin: 0 50px;
+    padding: 20px;
+    margin-left: 80px;
 }
 
+
 /* styling for about me section header */
-.about-me{
+.about-me {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* styling for about me section body */
-#aboutMeText{
+#aboutMeText {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 2;
 }
 
+.photoGalleryTxt {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+/* styling for photogallery */
+.photoGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+/* styling container for individual images */
+.images {
+    border: 5px solid wheat;
+    width: 150px;
+    height: 150px;
+
+}
+
+/* sytling for images */
+.PhotoImage {
+    width: 150px;
+    height: 150px;
+}
+
+/* skills section margin */
+#skills{
+    margin-left: 400px;
+}
+
+#consult{
+    margin-left: 400px;
+}
+
+
 /* styling for skill section header */
-.skillsTxt{
+.skillsTxt {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* styling for skill section body */
-#skillsList{
+#skillsList {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* styling for book a consultation section header */
-.consultTxt{
+.consultTxt {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
-#about #skills #consult{
-	margin: 20px 0;
+#about #skills #consult {
+    margin: 20px 0;
 }
 
 /* styling for book a consultation form */
 form {
-	display: flex;
-	flex-direction: column;
-	max-width: 400px;
-	margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: auto;
 }
 
 /* styling for form labels */
 form label {
-	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 /* styling for form input */
-input{
+input {
     padding: 4px 4px;
 }
 
 /* styling for form message box */
 textarea {
-	padding: 0.5em;
+    padding: 0.5em;
 }
 
 /* styling for form submit button */
@@ -152,10 +215,10 @@ textarea {
     border-radius: 20px;
     border-color: wheat;
     color: black;
-    padding: 15px 30px;  
-    font-size:14px;
+    padding: 15px 30px;
+    font-size: 14px;
     width: fit-content;
-    
+    /* margin-bottom: 100px; */
 }
 
 /* pseudo sytling for form submit button */
@@ -166,8 +229,9 @@ textarea {
     transition: 0.5s;
 }
 
+
 /* styling for contact details container */
-.footer{
+.footer {
     display: flex;
     background-color: wheat;
     margin: 0;
@@ -178,21 +242,27 @@ textarea {
 
 }
 
+
 /* styling for contact details icon elements */
-#footer{
+.footer {
     list-style-type: none;
     display: flex;
-    padding: 0; 
+    padding: 0;
     margin: 0;
     color: gray;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: space-between;
     /* padding-right: 50px; */
-    }
-
-/* styling for icon elements */
-#footer li{
-    padding: 0 15px; 
-    margin: 0; 
 }
 
+/* styling for icon elements */
+.footer ul {
+    padding: 20px 15px;
+    margin: auto;
+}
+
+
+/* styling for footer anchor tags */
+.footer a{
+    color: gray;
+}

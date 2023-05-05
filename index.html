@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,60 @@
     <link rel="stylesheet" href="sytle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/ba513bafb1.js" crossorigin="anonymous"></script>
     <title>My Portfolio Website</title>
 </head>
 
-    <body>
-<!-- header section -->
-        <div class="header">
-            <h1 class="headerTxt">Ozavize's Portfolio</h1>
-                    <nav>
-                        <ul>
-                            <li><a href="#main">Home</a></li>
-                            <li><a href="#about">About Me</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#footer">Contact</a></li>
-                            <li><a href="#consult" class="consultBtn"> Consultation</a></li> 
-                        </ul>
-                    </nav>
-            <div class="profile-pic">
-                <img src="Ozavize Alabi.jpg">
-            </div>
+<body>
+    <!-- header section -->
+    <div class="header">
+        <h1 class="headerTxt">Ozavize's Portfolio</h1>
+        <nav class="headerNav">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li><a href="#consult" class="consultBtn"> Consultation</a></li>
+            </ul>
+        </nav>
+        <div class="profile-pic">
+            <img src="Ozavize Alabi.jpg">
         </div>
+    </div>
 
-        
-<!-- Main body section -->
+
+    <!-- Main body section -->
+    <div class="body-section">
         <div class="main" id="main">
+            <!-- About-us section -->
             <div id="about">
                 <h2 class="about-me">About Me</h2>
-                <p id="aboutMeText">My name is Ozavize Alabi, and i am presently learning web development, Data Analysis under the TIIDE Lab Prefellowship
-                 program, Developing skils in HTML, CSS and Excel.</p>
+                <p id="aboutMeText">My name is Ozavize Alabi, and i am presently learning web development, Data Analysis
+                    under the TIIDE Lab Prefellowship
+                    program, Developing skils in HTML, CSS and Excel.</p>
+
+                <h3 class="photoGalleryTxt">Photo Gallery</h3>
+
+                <div class="photoGallery">
+                    <div class="images">
+                        <img src="museum.jpg" class="PhotoImage">
+
+                    </div>
+
+                    <div class="images">
+                        <img src="gallery.jpg" class="PhotoImage">
+
+                    </div>
+
+                    <div class="images">
+                        <img src="Iphone, laptop.jpg" class="PhotoImage">
+
+                    </div>
+                </div>
+
             </div>
 
             <br>
@@ -49,11 +74,12 @@
                     <li>Data Analysis</li>
                 </ul>
             </div>
-            
+
             <br>
             <div id="consult">
                 <h2 class="consultTxt">Book a Consultation</h2>
-            <!-- form -->
+                
+                <!-- form -->
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" placeholder=" Input Your Name" required>
@@ -69,17 +95,22 @@
             </div>
             <br>
             <br>
+
+
         </div>
 
-<!-- footer section -->
-        <nav class="footer">
-            <ul id="footer">
+        <!-- footer section -->
+
+        <nav class="footer" id="footer">
+            <ul>
                 <li class="phoneNo"><i class="fa-solid fa-phone"> 08168145075</i></li>
                 <li class="myEmail"><i class="fa-solid fa-envelope "> ozavizelabi@gmail.com</i></li>
-                <li class="Twitter"><i class="fa-brands fa-twitter"> Twitter</i></li>
-                <li class="Github"><i class="fa-brands fa-github"> Github</i></li>
+                <li class="Twitter"><a href="https://twitter.com/ozavizealabi"><i class="fa-brands fa-twitter"> Twitter</i></a></li>
+                <li class="Github"><a href="https://github.com/zavi25"><i class="fa-brands fa-github"> Github</i></a></li>
             </ul>
         </nav>
+    </div>
 
-    </body>
+</body>
+
 </html>
